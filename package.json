@@ -1,0 +1,33 @@
+{
+  "name": "karma-promise",
+  "version": "0.1.0",
+  "description": "Karma framework plugin for promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nsappsteam/karma-promise.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-framework",
+    "promise"
+  ],
+  "author": "Roberto Rodriguez <roberto@thinkcrunch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsappsteam/karma-promise/issues"
+  },
+  "homepage": "https://github.com/nsappsteam/karma-promise#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  }
+}
