@@ -22,3 +22,11 @@ module.exports = function(config) {
 
     # ...
 ```
+
+When using plugins you must explicitly list `karma-promise`.  See [link](http://karma-runner.github.io/2.0/config/plugins.html).
+
+```js
+plugins: [
+  'karma-promise'
+]
+```
